@@ -1,0 +1,158 @@
+#titre h1{
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+#titre p{
+    margin-top: 0px;
+}
+
+#recherche{
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    margin: 1% auto;
+}
+
+#champ_recherche{
+    width: 250px;
+    height: 40px;
+    border: 1px solid #f2f2f2;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+#icone_marker_map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    background-color: #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#rechercher{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+}
+
+#rechercher-web{
+    padding: 5px;
+}
+
+#recherche button:hover{
+    cursor: pointer;
+}
+
+#rechercher-mobile{
+    display: none;
+}
+@media only all and (max-width: 768px){
+    #titre h1{
+        font-size: 28px;
+        margin-bottom: 5%;
+    }
+    #titre p{
+        font-size: 24px;
+    }
+    #icone_marker_map{
+        width: 60px;
+        height: 60px;
+    }
+    #champ_recherche{
+        width: 400px;
+        height: 60px;
+        font-size: 22px;
+        padding-right: 20px;
+    }
+    #recherche{
+        margin: 5%;
+    }
+    #rechercher-web{
+        display: none;
+    }
+    #rechercher-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0065FC;
+        color: white;
+        height: 60px;
+        width: 60px;        
+        border-radius: 10px 10px 10px 10px;
+        margin-left: -10px;   
+    }
+}
+@media only all and (max-width: 552px){
+    #recherche{
+        margin: 5% 0;
+    }
+}
+@media only all and (max-width: 499px){
+    #titre h1{
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+    #titre p{
+        font-size: 20px;
+    }
+    #champ_recherche{
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+        padding-right: 20px;
+    }
+    #rechercher-mobile{
+        height: 40px;
+        width: 40px;        
+
+    }
+    #icone_marker_map{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media only all and (max-width: 450px){
+    .wrapper{
+        padding: 0 25px;
+    }
+}
+@media only all and (max-width: 400px){
+    .wrapper{
+        padding: 0 15px;
+    }
+    #titre h1{
+        font-size: 18px;
+    }
+    #titre p{
+        font-size: 16px;
+    }
+    #champ_recherche{
+        width: 250px;
+        height: 40px;
+        font-size: 18px;
+    }
+}
+@media only all and (max-width: 281px){
+    .wrapper{
+        padding: 0 5px;
+    }
+    #titre h1{
+        font-size: 16px;
+    }
+    #titre p{
+        font-size: 14px;
+    }
+    #champ_recherche{
+        width: 200px;
+        height: 40px;
+        font-size: 16px;
+    }
+}

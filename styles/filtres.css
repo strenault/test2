@@ -1,0 +1,156 @@
+#filtres{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3% auto;
+}
+
+#filtres h3{
+    padding-right: 20px;
+}
+
+#filtres h4{
+    padding-right: 20px;
+}
+
+.filtre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    max-width: 250px;
+    border: 2px solid #F2F2F2;
+    border-radius: 30px;
+    margin-right: 2%;
+}
+.wrapper1{
+    display: flex;   
+    max-width: 450px;
+    margin-right: 20px;
+}
+
+.filtre:hover{
+    cursor: pointer;
+    color: #0065FC;
+    background-color: #F2F2F2;
+}
+
+.blue{
+    margin-left: -2px;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 30px;
+}
+
+#icone_billet, #icone_famille, #icone_romantique, #icone_animaux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#info p{
+    margin: 0 1%;
+}
+
+/*================MEDIA===================*/
+@media only all and (max-width: 1024px){
+    #filtres{
+        flex-wrap: wrap;
+    }
+
+    .filtre{
+        margin-bottom: 10px;
+    }
+
+}
+@media only all and (max-width: 768px){
+ 
+    #filtres{
+        flex-direction: column;
+        align-items: normal;
+    
+    }
+    .wrapper1{        
+        justify-content: flex-start;
+        margin-top: 10px;
+        max-width: 550px;
+        margin-right: 20px;
+    }
+    .filtre{ 
+        height: 60px;
+        max-width: 300px;
+        margin-bottom: 10px;
+    }
+    .blue{
+        margin-left: -2px;
+        margin-right: 15px;
+        width: 60px;
+        height: 60px;
+        color: #0065FC;
+        background-color: #DEEBFF;
+        border-radius: 30px;
+    }
+    #filtres h3{
+        font-size: 22px;
+        padding-right: 20px;
+    }
+    
+    #filtres h4{
+        font-size: 20px;
+        padding-right: 20px;
+    }
+  
+}
+@media only all and (max-width: 499px){
+    .wrapper1{        
+        max-width: 450px;
+        margin-right: 20px;
+    }
+    .filtre{ 
+        height: 40px;
+        max-width: 250px;
+    }
+    .blue{
+        width: 40px;
+        height: 40px;
+
+    }
+    #filtres h3{
+        font-size: 18px;
+    }
+    
+    #filtres h4{
+        font-size: 18px;
+    }  
+
+}
+@media only all and (max-width: 400px){
+    .wrapper1{        
+        max-width: 350px;
+    }
+    .filtre{ 
+        height: 40px;
+        max-width: 230px;
+    }
+    .blue{
+        width: 40px;
+        height: 40px;
+
+    }
+    #filtres h3{
+        font-size: 16px;
+    }
+    
+    #filtres h4{
+        font-size: 14px;
+    }
+}

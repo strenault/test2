@@ -1,0 +1,37 @@
+/* GENERAL */
+*{
+    font-family: 'Raleway', sans-serif;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: #0065FC;
+    text-decoration: none;
+}
+
+h2{font-size:1.3em;}
+.note-blue{color:#0065FC;}
+.note-grey{color: #c2c2c2;}
+
+
+.wrapper{
+    max-width: 1440px;
+    margin:0 auto;
+    padding: 0 50px;
+}
+.cards{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.footerPage{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 50px
+}

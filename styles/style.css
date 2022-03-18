@@ -1,0 +1,19 @@
+/*
+Couleurs
+
+bleu : #0065FC
+bleu claire : #DEEBFF
+gris : #F2F2F2
+*/
+
+@import url("page.css");
+@import url("header.css");
+@import url("recherche.css");
+@import url("filtres.css");
+@import url("cards.css");
+@import url("footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}

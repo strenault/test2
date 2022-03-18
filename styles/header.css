@@ -1,0 +1,99 @@
+header{
+    display: flex;
+    margin: 0 auto 30px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 16px; 
+}
+
+header #logo-container{
+    flex-grow: 1;
+    padding-top: 15px;
+}
+
+.logo{
+    height: 50px;
+    width: 120px;
+}
+
+header #logo-container a:hover{
+    text-decoration: none;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 320px;
+    justify-content: space-around;
+}
+
+header nav li a{
+    padding-top: 30px;
+    display: block;
+}
+
+header nav li{
+    list-style: none;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover{
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+}
+
+
+/*================MEDIA===================*/
+
+@media only all and (max-width: 768px){
+
+    #head{
+        width: 100%;
+        margin:0;
+        padding: 0;
+    }
+
+    header{
+        margin-bottom: 0;
+    }
+
+    header nav{
+        order: 2;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    header nav ul{
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    header nav li{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #d8d8d8;
+    }
+
+    header nav li:hover{
+        border-bottom: 2px solid #0065FC;
+    }
+
+    header nav a:hover{
+        border-top: none;
+        color: #0065FC;
+    }
+
+    header #logo-container{
+        margin: auto;
+        flex-grow: unset;
+    }
+
+}
