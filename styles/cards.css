@@ -226,7 +226,6 @@
 .activitesBox{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     flex-basis: auto;
     flex-shrink: 2;
 }
